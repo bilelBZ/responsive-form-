@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .two {
+        background-color: red;
+        margin-bottom: 20px;
+    }
+    .box{
+        border: 1px solid black;
+    }
+        
+    @media (min-width:800px) {
+        .one{
+            background-color: royalblue;
+            }
+        .two :last-child{
+            margin-bottom: 0;  
+        }  
+    }
+</style>
+<body>
+   <div class="box">
+    <div class=" two one">hello</div>
+    <div class="two">hello</div>
+    <div class="two">hello</div>
+   </div>
+</body>
+</html>

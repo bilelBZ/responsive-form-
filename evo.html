@@ -1,0 +1,125 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Formulaire de Evaluation </title>
+        <style>
+            *{
+                margin: 10px;
+            }
+            .css {
+              width :100%; 
+              height:80px;
+            }
+            .position {
+                display:flex;
+                align-items: baseline;
+                width: 100%;
+              }
+              .btn{
+                display: flex;
+                justify-content: flex-end;
+                
+                
+              }
+              .main{
+                  margin: 40px 150px;
+                  box-shadow: black;
+                  box-shadow: 5px 5px 5px 5px #aaaaaa;
+                  display: flex;
+                  justify-content: center; 
+              }
+              .input1{
+                  width: 50%;
+              }
+              
+        </style>
+    </head>
+    <body>
+    <div class="main">
+        <div>
+            <div class="position">
+                <div class="input1">
+                    <label for="text"><strong>nom de société</strong></label>   
+                    <input type ="text" name ="nom" class="form-control size">
+                </div>
+                <div class="input1">
+                    <label for="text"><strong>Fonction</strong></label>
+                    <input type ="text" name ="function" class ="form-control size">
+               </div>
+        </div>
+            <div>
+                <label for="text"><strong>Email</strong></label>
+                <br>
+            <td ><input type="email " class="form-control size"  name="email"></td>
+            </div><br>
+            <div>
+               <label for="text"><strong> Addresse complete</strong></label>
+                <br>
+                <td><input type ="adresse " class="form-control size" name ="adresse"></td>
+            </div><br>
+            <div>
+             <label for="text"><strong> Description  de service :</strong></label>
+                <br>
+                <textarea class="form-control css"></textarea>
+            </div><br>
+            <div>
+                <label for="text"><strong>chiffre d'affaires actuel  :</strong></label>
+                <br>
+                <td>
+                <select id="chiffre d'affaires" class="form-control size">
+                    <option value="01"><strong>Pas de chiffre d'affaire</strong></option>
+                </select>
+            </td>
+            </div><br>
+            <div>
+                <label for="text"><strong>Nombre de personnes employées :</strong></label>
+               <br>
+               <td>
+               <select id="nombre de personnes " class="form-control size">
+                   <option value="01">Aucun employé(uniquement les fondateurs )</option>
+               </select>
+           </td>
+           </div><br>
+           <div> 
+              <label for="text"><strong> Quelles sont les problématiques principales rencontrés (plusieurs réponses possibles)</strong></label>
+               <br>
+               <label for="text"><strong>Commercial </strong></label>
+               <br> 
+               <textarea class="form-control css" ></textarea><br>
+           <label for="text"> <strong>Business model</strong></label>
+               <br> 
+               <textarea class="form-control css" ></textarea><br>
+                <label for="text"><strong>innovation </strong></label>
+               <br> 
+               <textarea class="form-control css" ></textarea><br>
+               <label for="text"><strong> Dirigeant</strong></label>
+               <br> 
+               <textarea class="form-control css"></textarea><br>
+            <label for="text"><strong>Financement</strong> </label> 
+               <br> 
+               <textarea class="form-control css"></textarea><br>
+    
+                <label for="text"><strong>Organisation/Exploitation</strong>  </label>
+               <br> 
+               <textarea class="form-control css"></textarea><br>
+               <label for="text"><strong>Ressources humaines</strong></label> 
+               <br> 
+               <textarea class="form-control css"></textarea><br>
+               <label for="text"><strong>Précisez les problématiques</strong></label> 
+               <br> 
+               <textarea class="form-control css"></textarea><br>
+              </div>
+              <div class="btn">
+                  <div>
+                    <button type="button" class="btn btn-primary ">Suivant</button>
+                  </div>
+              </div>
+            
+            </form>
+    
+        </div>
+    </div>
+      </body>
+
+</html>
